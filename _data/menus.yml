@@ -16,6 +16,6 @@ footer:
   - name: "Privacy Policy"
     url: "/Privacy.html"
     weight: 1
-  - name: "terms and conditions"
+  - name: "Terms and conditions"
     url: "/Terms.html"
     weight: 2

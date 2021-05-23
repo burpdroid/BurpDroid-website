@@ -2,11 +2,11 @@ stackbitVersion: ~0.3.0
 ssgName: jekyll
 ssgVersion: "4.1"
 buildCommand: bundle exec jekyll build
-publishDir: '_site'
-staticDir: 'assets'
-uploadDir: 'images'
-dataDir: '_data'
-pagesDir: ''
+publishDir: "_site"
+staticDir: "assets"
+uploadDir: "images"
+dataDir: "_data"
+pagesDir: ""
 pageLayoutKey: null
 logicFields:
   - site_menu_item.weight
@@ -26,8 +26,8 @@ models:
       - type: string
         name: permalink
         label: Permalink
-        description: 'The output path for your pages, posts, or collections.'
-        default: '/posts/:slug:output_ext'
+        description: "The output path for your pages, posts, or collections."
+        default: "/posts/:slug:output_ext"
         hidden: true
       - type: string
         name: google_analytics_id
@@ -163,7 +163,7 @@ models:
     type: object
     label: Site Menu Item
     labelField: name
-    description: 'Site menu item model, defines fields for a single site menu item'
+    description: "Site menu item model, defines fields for a single site menu item"
     fields:
       - type: string
         name: identifier
@@ -222,7 +222,7 @@ models:
   basicpage:
     type: page
     label: Basic Page
-    match: '*.md'
+    match: "*.md"
     exclude: index.md
     fields:
       - type: string
@@ -341,6 +341,68 @@ models:
     type: page
     label: Team Overview
     file: team.md
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page.
+        required: true
+      - type: image
+        name: intro_image
+        label: Intro Image
+        description: Image displayed at in the pages intro section
+      - type: boolean
+        name: intro_image_absolute
+        label: Intro Image Position
+        description: Should the image overflow or be contained
+      - type: boolean
+        name: intro_image_hide_on_mobile
+        label: Intro Image Hide On Mobile
+        description: Hide the intro image on mobile screen sizes
+      - type: string
+        name: permalink
+      - type: enum
+        name: layout
+        options:
+          - label: teams
+            value: teams
+
+  privacy:
+    type: page
+    label: Privacy Policy
+    file: privacy.md
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page.
+        required: true
+      - type: image
+        name: intro_image
+        label: Intro Image
+        description: Image displayed at in the pages intro section
+      - type: boolean
+        name: intro_image_absolute
+        label: Intro Image Position
+        description: Should the image overflow or be contained
+      - type: boolean
+        name: intro_image_hide_on_mobile
+        label: Intro Image Hide On Mobile
+        description: Hide the intro image on mobile screen sizes
+      - type: string
+        name: permalink
+      - type: enum
+        name: layout
+        options:
+          - label: teams
+            value: teams
+
+  terms:
+    type: page
+    label: terms and conditions
+    file: terms.md
     singleInstance: true
     fields:
       - type: string
