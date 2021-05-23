@@ -1,6 +1,6 @@
-baseurl: '/'
+baseurl: "/"
 permalink: pretty
-title: 'BurpDroid'
+title: "BurpDroid"
 
 google_analytics_id: ""
 
@@ -9,11 +9,11 @@ homepage:
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
-  desktop: "images/logo/logo.svg"
+  desktop: "images/logo/logo.png"
   desktop_height: "36px"
 
 footer:
-  copyright_text: '© 2021 BurpDroid'
+  copyright_text: "© 2021 BurpDroid"
 
 seo:
   meta_og_title: "BurpDroid"
