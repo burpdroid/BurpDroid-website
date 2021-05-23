@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "Intercept",
+    "description": "The Intercept tab displays individual HTTP & HTTPS requests and responses that have been intercepted. This works as a middle man between browser and target application and let you Intercept, inspect, and modify the raw traffic passing in both directions. ",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Repeater",
+    "description": "Repeater is a simple tool for manually manipulating and reissuing individual HTTP and WebSocket messages, and analyzing the application’s responses. Repeater can be used to repeat the requests on the same URL with different parameters.",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Intruder",
+    "description": "Intruder is a tool for automating customized attacks against web applications. It is extremely powerful and configurable, and can be used to perform a huge range of tasks, from simple brute-force guessing of web directories through to active exploitation of complex blind SQL injection vulnerabilities.",
     "image": "images/features/noun_3d modeling_1885342.svg"
   }
 ]
