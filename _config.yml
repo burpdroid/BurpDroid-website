@@ -27,9 +27,9 @@ seo:
 
 collections:
   services:
-    output: true
+    output: false
   team:
-    output: true
+    output: false
 
 sass:
   indentWidth: 4
