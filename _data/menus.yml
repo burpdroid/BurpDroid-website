@@ -13,9 +13,9 @@ main:
     weight: 5
 
 footer:
-  - name: "Home"
-    url: "/"
+  - name: "Privacy Policy"
+    url: "/Privacy.html"
     weight: 1
-  - name: "Contact"
-    url: "/contact/"
+  - name: "terms and conditions"
+    url: "/Terms.html"
     weight: 2
