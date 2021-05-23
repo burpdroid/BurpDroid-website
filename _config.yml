@@ -12,6 +12,8 @@ logo:
   desktop: "images/logo/logo.svg"
   desktop_height: "36px"
 
+footer:
+  copyright_text: ''
 
 seo:
   meta_og_title: "Jekyll Serif Theme"
