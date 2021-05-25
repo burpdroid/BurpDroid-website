@@ -8,7 +8,7 @@ homepage:
   show_call_box: true
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "images/logo/logo.png"
   desktop: "images/logo/logo.png"
   desktop_height: "36px"
 
