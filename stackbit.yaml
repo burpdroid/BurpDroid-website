@@ -429,3 +429,34 @@ models:
         options:
           - label: teams
             value: teams
+
+  tutorial:
+    type: page
+    label: How to use BurpDroid
+    file: tutorial.md
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page.
+        required: true
+      - type: image
+        name: intro_image
+        label: Intro Image
+        description: Image displayed at in the pages intro section
+      - type: boolean
+        name: intro_image_absolute
+        label: Intro Image Position
+        description: Should the image overflow or be contained
+      - type: boolean
+        name: intro_image_hide_on_mobile
+        label: Intro Image Hide On Mobile
+        description: Hide the intro image on mobile screen sizes
+      - type: string
+        name: permalink
+      - type: enum
+        name: layout
+        options:
+          - label: teams
+            value: teams
