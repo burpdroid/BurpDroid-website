@@ -1,7 +1,7 @@
 [
   {
-    "title": "Intercept",
-    "description": "The Intercept tab displays individual HTTP & HTTPS requests and responses that have been intercepted. This works as a middle man between browser and target application and let you Intercept, inspect, and modify the raw traffic passing in both directions. ",
+    "title": "Interceptor",
+    "description": "The Interceptor tab displays individual HTTP & HTTPS requests and responses that have been intercepted. This works as a middle man between browser and target application and let you Intercept, inspect, and modify the raw traffic passing in both directions. ",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
