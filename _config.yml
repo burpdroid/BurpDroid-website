@@ -20,7 +20,7 @@ seo:
   meta_og_type: "App"
   meta_og_url: "https://jekyll-serif.netlify.app"
   meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
-  meta_og_description: "BurpDroid is one of the most popular penetration testing and vulnerability finder tool for Android, and is often used for checking web application security.It's a proxy-based tool used to evaluate the security of web-based applications and do hands-on testing."
+  meta_og_description: "BurpDroid is burpsuite for android mobile it's one of the most popular penetration testing and vulnerability finder tool for Android, and is often used for checking web application security.It's a proxy-based tool used to evaluate the security of web-based applications and do hands-on testing."
   meta_twitter_card: "summary"
   meta_twitter_site: "@zerostaticio"
   meta_twitter_creator: "@zerostaticio"
